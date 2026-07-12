@@ -1,0 +1,14 @@
+{
+  "name": "twilio-sms-webhook-app",
+  "version": "1.0.0",
+  "description": "Receives incoming SMS via Twilio webhook and displays it on a simple web page.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "twilio": "^5.2.2",
+    "dotenv": "^16.4.5"
+  }
+}
